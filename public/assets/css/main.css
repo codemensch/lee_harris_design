@@ -2087,7 +2087,7 @@
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
+				border-radius: 0%;
 				width: 100%;
 			}
 
@@ -2105,7 +2105,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 0 0 .5em 0;
 		padding-left: 1em;
 	}
 
@@ -2134,6 +2134,11 @@
 			padding-left: 0;
 		}
 
+			
+			ul.icon-title li {
+				display: inline-block;
+				padding: 0 1em -1em 0;
+			}
 			ul.icons li {
 				display: inline-block;
 				padding: 0 1em 0 0;
@@ -2518,7 +2523,13 @@
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
 		}
-
+		
+		#header h1 strong {
+			font-size: 1.5em;
+			color: white;
+			
+		}
+		
 		#header h1 {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 1.35em;
