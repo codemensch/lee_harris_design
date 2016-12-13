@@ -1556,6 +1556,7 @@
 
 	body {
 		background: #fff;
+		background-image: url("../../images/main_bg.png");
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1607,7 +1608,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: black;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
