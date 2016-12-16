@@ -2094,6 +2094,7 @@
 			.image.avatar img {
 				border-radius: 0%;
 				width: 100%;
+				
 			}
 
 /* List */
@@ -2491,11 +2492,11 @@
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("../../images/side_bar_bg.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								auto 100%;
-		color: rgba(255, 255, 255, 0.5);
+		color: #fff;
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2531,12 +2532,12 @@
 		
 		#header h1 strong {
 			font-size: 1.5em;
-			color: white;
+			color: black;
 			
 		}
 		
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: #fff;
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2554,11 +2555,11 @@
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: #fff;
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		color: #fff;
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
