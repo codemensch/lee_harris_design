@@ -12,47 +12,76 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!-- Slick Slider -->
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
 	</head>
 	<body id="top">
 
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					
 					<a href="#" class="image avatar"><img src="images/lhd_logo.jpg" alt="" /></a>
 					<h1><strong>| lee harris design |</strong></h1>
-					<h1>creating inviting spaces</br>
-					for people to enjoy</h1>
 				</div>
+				
+				<!-- Navbar -->
+				<div class="navbar">
+					<div>
+						<a href='#' class="navbar-btn-selected icon" id="btn-1"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a>
+						<a href='#' class="navbar-btn icon" id="btn-2"><i class="fa fa-camera-retro fa-2x" aria-hidden="true"></i></a>
+					</div>
+					<div>
+						<a href='#' class="navbar-btn icon" id="btn-3"><i class="fa fa-pagelines fa-2x" aria-hidden="true"></i></a>
+						<a href='#' class="navbar-btn icon" id="btn-4"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				
+				<!-- Old Navbar for 4 Pages
+				<div class="navbar">
+					<div>
+						<div class="navbar-btn" id="btn-1"><i class="fa fa-camera-retro fa-2x" aria-hidden="true"></i></div>
+						<div class="navbar-btn" id="btn-2"><i class="fa fa-pagelines fa-2x" aria-hidden="true"></i></div>
+					</div>
+					<div>
+						<div class="navbar-btn" id="btn-3"><i class="fa fa-comment-o fa-2x" aria-hidden="true"></i></div>
+						<div class="navbar-btn" id="btn-4"><i class="fa fa-user fa-2x" aria-hidden="true"></i></div>
+					</div>
+				</div>
+				-->
 			</header>
 
 		<!-- Main -->
 			<div id="main">
 				
 				<!-- One -->
-				<!--
-					<section id="one">
-						<header class="major">
-							<h2>Your Outdoor Garden should be an extension <br />
-							of your indoor life.</h2>
-						</header>
-						<h3 id="blurb">California native specializing in Hardscape and Horticultural Design for over 30 years.</h3>
-						
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
-						
-					</section>
-					-->
+						<section id="one">
+							
+							<header class="major">
+								<h2 class="align-center">Your Outdoor Garden should be an extension <br>
+								of your indoor life.</h2>
+							</header>
+							<h2 class="align-center">landscape | hardscape | creative spaces</h2>
+							
+							<div class='align-center' id='more-btn'>
+								<a href='#two'><i class="fa fa-angle-double-down fa-4x" aria-hidden="true"></i></a>
+							</div>
+							
+							<!--
+							<ul class="actions">
+								<li><a href="#" class="button" id="button_one">About Lee Harris</a></li>
+							</ul>
+							-->
+							
+							
+						</section>
 					
 				<!-- Two -->
 					<section id="two">
 						<header class="major">
-							<h2>Your Outdoor Garden should be an extension <br />
-							of your indoor life.</h2>
+							<h2 class="align-center">Find inspiration for your future outdoor space.</h2>
 						</header>
-						<h3 id="blurb">California native specializing in Hardscape and Horticultural Design for over 30 years.</h3>
-						<!-- <h2>Recent Work</h2> -->
+					
 						<div class="row">
 							<article class="6u 12u$(xsmall) work-item">
 								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
@@ -68,17 +97,137 @@
 							</article>
 						</div>
 						<ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
+							<li><a href="#" class="button" id="portfolio-btn">Full Portfolio</a></li>
 						</ul>
 					</section>
-
+				
+				<!-- Two-A -->
+					<section id="two-a">
+						<header class="major">
+							<h2 class="align-center">What People Are Saying About Lee Harris Design</h2>
+						</header>
+						
+						<div class="single-item align-center">
+						  <blockquote>"Lee Harris is the coolest guy I've ever met. He's got mad landscaping skills and knows his way around a swimming pool."<br><br>
+						  	-Super Satisfied Customer
+						  </blockquote>
+						  <blockquote>your content</blockquote>
+						  <blockquote>your content</blockquote>
+						  <blockquote>your content</blockquote>
+						</div>
+						
+					</section>
+					
+					
+				<!-- Portfolio -->
+					<section id='portfolio' class='pages-top'>
+						<header class="major">
+							<h2>Portfolio</h2>
+						</header>
+						
+						<div class='embed-container'>
+							<iframe src='https://player.vimeo.com/video/8067224' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+							</iframe>
+						</div>
+						<article class="work-item">
+							<h3>Featured Project: Casa Estrella - Knights Ferry, CA</h3>
+							<p>Project Features: Pool design, walking trails and water features.</p>
+							<a href='http://casaestrellaca.com'>casaestrellaca.com</a>
+						</article>
+						
+						<div class="row">
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
+								<h3>Magna sed consequat tempus</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="6u$ 12u$(xsmall) work-item">
+								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
+								<h3>Ultricies lacinia interdum</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
+								<h3>Tortor metus commodo</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="6u$ 12u$(xsmall) work-item">
+								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
+								<h3>Quam neque phasellus</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="6u 12u$(xsmall) work-item">
+								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
+								<h3>Nunc enim commodo aliquet</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+							<article class="6u$ 12u$(xsmall) work-item">
+								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
+								<h3>Risus ornare lacinia</h3>
+								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+							</article>
+						</div>
+					</section>	
+					
+				<!-- Services -->
+					<section id='services' class='pages-top'>
+						<header class='major'>
+							<h2>Services</h2>	
+						</header>
+						
+						<h3>The Design Process</h3>
+						<p><span class="image left"><img src="images/services_1.jpg" alt="" /></span>In general the design process is as follows: At the initial meeting Lee will look over the site, listen to your requirements and needs and take notes. He will e-mail you a proposal for your review. Upon approval of the proposal he will schedule an appointment to take measurements and a selection of photographs. Next the measurements are input to the computer to develop the base sheet, followed by the initial concept space treatments. When the plans are approximately 80% completed there is a meeting to review the work with an opportunity for review and input on the part of the client. Revisions are made as needed leading to the final meeting for presentation of the colored concept plan with notes. Other steps and processes will be followed on and as needed basis and will be spelled out in the initial proposal.</p>
+						<h3>Offering 30 years of expertise in:</h3>
+						<p><span class="image right"><img src="images/services_2.jpg" alt="" /></span>
+							Initial Onsite Consultations 
+							<br>Space Planning
+							<br>Site Development
+							<br>Colored Concept Plans
+							<br>Hardscape Layout Plans
+							<br>Planting Plans
+							<br>Outdoor Kitchen And Entertainment Areas
+							<br>Firepits And Fireplaces
+							<br>Swimming Pools And Spas, Water Features
+							</p>
+						
+					</section>
+					
+				<!-- About -->
+					<section id='about' class='pages-top'>
+						<header class='major'>
+							<h2>About Lee Harris</h2>	
+						</header>
+						
+						<div class="row">
+							<article class="4u -4u" id="about-avatar">
+								<a href="images/about.jpg" class="image fit thumb"><img src="images/thumbs/about_thumb.jpg" alt="" /></a>
+							</article>
+						</div>
+						
+						<p><span class="image left"><img src="images/about_1.jpg" alt="" /></span>“Garden design has always interested me,” As a young child Lee first encountered a small pond in the backyard of his grandparents’ South Pasadena home. “This pond looked so natural yet purposeful, such a peaceful addition to a beautifully shaded patio and arbor. I was captivated by its trickling sound and the coolness of the water on such a warm summer day, surely it must have always been there as part of the land even before the house was built...”
+							In reality the pond, patio, and arbor spaces were designed … by his mother’s cousin, well known Landscape Architect Courtland Paul, FASLA (1927-2003). A native Californian, who became one of the state’s first licensed landscape architects in 1954. Mr. Paul and Peridian International, the landscape architecture firm he founded over fifty years ago. “Were well known for community design and master planning, and for the golf courses, hotels, and theme parks they created in Southern California and throughout the world.”
+ 						</p>
+ 						
+ 						<p>
+							Lee relies on his degree in Ornamental Horticulture and over 30 years of practical experience in landscape and swimming pool design. He has worked side by side with numerous contractors of all types. “I have a passion for creating spaces that move you literally and figuratively. A well-designed landscape should call to you. It should be something that becomes an extension of your life inside the home… it should draw you into the out-of-doors.”
+ 						</p>
+ 						
+ 						<p>
+							Lee is also a 3 time participant of the <a href='http://www.genesis3.com/index.html'>Genesis 3 Swimming Pool Design School</a>.
+ 						</p>
+ 						
+ 						<p>
+							When not designing, Lee enjoys cooking and entertaining with his wife. His other creative pursuit is contemporary abstract oil painting. “Painting helps me see my surroundings in new ways. It keeps me fresh and provides another avenue for the creative process.”
+						</p>
+					</section>
+				
 				<!-- Three -->
 					<section id="three">
 						<h2>Get In Touch</h2>
-						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+						<p>We'd love to hear from you.</p>
 						<div class="row">
 							<div class="8u 12u$(small)">
-								<form method="post" action="#">
+								<form method="post" action="assets/php/contact.php">
 									<div class="row uniform 50%">
 										<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
 										<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -93,17 +242,17 @@
 								<ul class="labeled-icons">
 									<li>
 										<h3 class="icon fa-home"><span class="label">Address</span></h3>
-										1234 Somewhere Rd.<br />
-										Nashville, TN 00000<br />
+										1705 Arbor Way<br />
+										Turlock, CA 95380<br />
 										United States
 									</li>
 									<li>
 										<h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
-										000-000-0000
+										209-620-7670
 									</li>
 									<li>
 										<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
-										<a href="#">hello@untitled.tld</a>
+										<a href="#">leeharris1705@gmail.com</a>
 									</li>
 								</ul>
 							</div>
@@ -429,24 +578,20 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 					</section>
 				-->
+				
+				
 
 			</div>
-
+			
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">
-					<ul class="icon-title">
-						<li>Visit us at Houzz</li>
-						<li>Contact</li>
-					</ul>
 					<ul class="icons">
-						<li><a href="#" class="icon fa-houzz fa-2x"><span class="label">Houzz</span></a></li>
-						<li><a href="#" class="icon fa-envelope-o fa-2x"><span class="label">Email</span></a></li>
+						<li><a href="http://www.houzz.com/pro/lscottharris/lee-harris-design" class="icon"><img src="http://st.hzcdn.com/static/badge181_25@2x.png" alt="Lee Harris on Houzz" width="181" height="25" border="0" /></a></li>
+						<li><a href="#three" class="icon fa-envelope-o fa-lg"><span class="label">Email</span></a></li>
 					</ul>
 					<ul class="copyright">
-						<li>&copy; Lee Harris</li>
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						<li>Editing: <a href="https://github.com/codemensch">codemensch</a></li>
+						<li>&copy; Lee Harris Design</li>
 					</ul>
 				</div>
 			</footer>
@@ -458,6 +603,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			<!-- JavaScript Apps -->
+        	<script src="assets/js/nav.js"></script>
+        	<!-- JQuery UI -->
+        	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+				integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+				crossorigin="anonymous">
+        	</script>
+        	<!-- Slick Slider -->
+        	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 	</body>
 </html>
